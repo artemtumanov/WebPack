@@ -1,0 +1,17 @@
+
+.tabs_wrapper {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc_date, .timer {
+    font-size: 30px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#datecalc, #timer {
+    display: none;
+}
